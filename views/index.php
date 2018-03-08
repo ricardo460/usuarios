@@ -8,10 +8,10 @@
 		</header>
 		<table border=1>			
 			<tr>
-				<td><a href="ingresar.php">Ingresar</a></td>
+				<td><a href="ingresar.php">Ingresar Nuevo Regitro</a></td>
 			</tr>
 			<tr>
-				<td><a href="usuarios.php">Ver</a></td>
+				<td><a href="usuarios.php">Ver Registros</a></td>
 			</tr>
 		</table>
 		<footer>

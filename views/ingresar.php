@@ -77,12 +77,14 @@ Ingresa los datos del Usuario
 	            url: '../controller/admin_usuario.php',
 	            data: data,
 	            success:function(res){
-					awindow.lert("Datos Guardados");
+					window.lert("Datos Guardados");
+					window.location.href = "usuarios.php";
 	            },
 	            error:function(res){
 
 	            	if(res.responseText === "ok"){
 	            		window.alert("Datos Guardados");
+	            		window.location.href = "usuarios.php";
 	            	}
 	            	else{
 	            		window.alert("Ocurrio un Error");
